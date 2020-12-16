@@ -1,0 +1,296 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "OathOfSunligth",
+				"abbreviation": "OoS",
+				"full": "Oath of Sunlight",
+				"authors": [
+					"xSHIGUYx"
+				],
+				"version": "1.3",
+				"url": "https://www.reddit.com/r/UnearthedArcana/comments/f4bq4h/oath_of_sunlight_a_paladin_oath_inspired_by_dark/?utm_source=share&utm_medium=ios_app&utm_name=iossmf",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1544903578,
+		"dateLastModified": 1544903578
+	},
+	"subclass": [
+		{
+			"name": "Oath of Sunlight",
+			"source": "OathOfSunlight",
+			"subclassFeatures": [
+				"Oath of Sunlight|Paladin||Sunlight|OathOfSunlight|3",
+				"Aura of Sunlight|Paladin||Sunlight|OathOfSunlight|7",
+				"Sunlight's Wrath|Paladin||Sunlight|OathOfSunlight|15",
+				"Radiant Soul|Paladin||Sunlight|OathOfSunlight|20"
+			],
+			"shortName": "Sunlight",
+			"spells": [
+				{
+					"prepared": {
+						"3": [
+							"healing word",
+							"guiding bolt"
+						],
+						"5": [
+							"healing spirit",
+							"branding smite"
+						],
+						"9": [
+							"aura of vitality",
+							"spirit guardians"
+						],
+						"13": [
+							"aura of life",
+							"sickning radiance"
+						],
+						"17": [
+							"mass cure wounds",
+							"holy weapon"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"healing word",
+							"guiding bolt"
+						],
+						"5": [
+							"healing spirit",
+							"branding smite"
+						],
+						"9": [
+							"aura of vitality",
+							"spirit guardians"
+						],
+						"13": [
+							"aura of life",
+							"sickning radiance"
+						],
+						"17": [
+							"mass cure wounds",
+							"holy weapon"
+						]
+					}
+				}
+			],
+			"className": "Paladin",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Oath of Sunlight",
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 3,
+			"entries": [
+				"There are those paladins who waver in the face of the dark. Thos paladins who will see weakness in themselves when they are called to serve their duty. No such paladin can be found under the Oath of Sunlight. The sun grants their strength, like a benevolent mother she gives them what they truly seek: Purpose. Under the sun they gain power, find their way, and may gift it unto other.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of Sunlight|Paladin||Sunlight|OathOfSunlight|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Sunlight|OathOfSunlight|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Blessed Armor|Paladin||Sunlight|OathOfSunlight|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Emit Force|Paladin||Sunlight|OathOfSunlight|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Tenets of Sunlight",
+			"entries": [
+				"The tenets of the Oath of Sunlight are learned through exposure to sun's bountiful grace. This oath focuses on the knowledge of how to help others. Its three principles all regard the ability to step up for those who require it in their time of need.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Brilliance.",
+							"entries": [
+								"You are bright in the face of unyieldin darkness. Ever a beacon of hope to those less fortunate"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Duty.",
+							"entries": [
+								"Be luminescent in the eyes of the common folk. Revered as a helper nd a friend, always watchful of those who might threaten peace."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cooperation",
+							"entries": [
+								"Be kind to your allies. You must remember to abstain from any selfish desires, instead focusing on what must be done to benefit those who live under the sun's heavenly glow."
+							]
+						}
+					]
+				}
+			],
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Oath Spells",
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of Sunlight Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell healing word}, {@spell guiding bolt}"
+						],
+						[
+							"5th",
+							"{@spell healing spirit}, {@spell branding smite}"
+						],
+						[
+							"9th",
+							"{@spell aura of vitality}, {@spell spirit guardians}"
+						],
+						[
+							"13th",
+							"{@spell aura of life}, {@spell sickening radiance}"
+						],
+						[
+							"17th",
+							"{@spell mass cure wounds}, {@spell holy weapon}"
+						]
+					]
+				}
+			],
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Channel Divinity: Blesses Armor",
+			"entries": [
+				"As a action, you can channel radiant energy through the armor you and any allies nearby, using your Chennel Divinity.",
+				"For 1 minute, you can add your Charisma modifier to your AC in place of your Dexterity modifier. Additionally, while wearing blessed armor you can add an extra 1d8 to the hit points regained by any healing spells you cast.",
+				"You can end this effect on your turn as part of any other action. If you are no longer wearing your armor, or if you fall unconscious, this effect ends."
+			],
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Channel Divinity: Emit Force",
+			"entries": [
+				"As an action, the sun defends you from harm, using your Channel Divinity.",
+				"Each creature of your choice within 30 feet of you must make a Desterity saving throw. If the creature fails its saving throw, it takes damage equal to your Paladin level and is pushed 30 feet away from you."
+			],
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Aura of Sunlight",
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level while in combat you, and any allies within 10 feet of you, regain a number of hit points equal to your Charisma modifier (minimum of 1) at the start of your turn.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Sunlight's Wrath",
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level you learn to control the sun's anger. If you are hit with an opportunity attack, you can expend your reaction to emit a bright searing light. You can cause a number of creature within 5 feet of you up to your Charisma modfier to make a Constitution saving throw against your Spell save DC. They take radiant damage equal to half your Paladin level, and are Blinded for 1 minute. You cn use this feature a number of times equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Radiant Soul",
+			"source": "OathOfSunlight",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sunlight",
+			"subclassSource": "OathOfSunlight",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level your soul is filled with radiant energy. You gain the following benefits:",
+				"You now have immunity to radiant damage.",
+				"You can now use your Channel Divinity twice per day.",
+				"Your Blessed Armor now last 2 minutes and your healing bonus increase to 2d8. In addition, the range of your Emit Force increase to 60 feet."
+			]
+		}
+	]
+}
